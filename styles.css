@@ -147,12 +147,28 @@ _:-ms-input-placeholder, :root .demo-graph {
   max-height: 300px;
 }
 /* TODO end */
+
+
+.content{
+
+   
+
+  display: none;
+  background-color: antiquewhite ;
+}
+
+.content.reveal{
+  display: block;
+}
 .demo-graph:nth-child(1) {
   color: #00b9d8;
 }
 .demo-graph:nth-child(2) {
   color: #d9006e;
 }
+
+
+
 
 .demo-cards {
   -webkit-align-items: flex-start;
@@ -212,4 +228,14 @@ _:-ms-input-placeholder, :root .demo-graph {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+
+#readMore{
+  text-align: left;  
+  border: 1px solid slateblue;
+  padding: 2%;
+  color: #00b9d8;
+
+  font-family: 'Bree Serif', serif;
 }
