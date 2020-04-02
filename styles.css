@@ -107,46 +107,23 @@ html, body {
   max-width: 1080px;
 }
 
-.demo-charts {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  align-content: center;
+  background-image: url("document.png");
 }
-.demo-chart:nth-child(1) {
-  color: #ACEC00;
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
 }
-.demo-chart:nth-child(2) {
-  color: #00BBD6;
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
 }
-.demo-chart:nth-child(3) {
-  color: #BA65C9;
-}
-.demo-chart:nth-child(4) {
-  color: #EF3C79;
-}
-.demo-graphs {
-  padding: 16px 32px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-/* TODO: Find a proper solution to have the graphs
- * not float around outside their container in IE10/11.
- * Using a browserhacks.com solution for now.
- */
-_:-ms-input-placeholder, :root .demo-graphs {
-  min-height: 664px;
-}
-_:-ms-input-placeholder, :root .demo-graph {
-  max-height: 300px;
-}
-/* TODO end */
 
 
 .content{
@@ -160,15 +137,19 @@ _:-ms-input-placeholder, :root .demo-graph {
 .content.reveal{
   display: block;
 }
-.demo-graph:nth-child(1) {
-  color: #00b9d8;
-}
-.demo-graph:nth-child(2) {
-  color: #d9006e;
 }
 
 
-
+.demo-card-square.mdl-card {
+  align-self: flex-start;
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
 
 .demo-cards {
   -webkit-align-items: flex-start;
@@ -231,6 +212,22 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 
 
+
+
+
+
+
+
+.EVS{
+  display: none;
+ margin-top: 26px;
+
+
+}
+.EVS.reveal{
+  display: block;
+  margin-top: 16px;
+}
 #readMore{
   text-align: left;  
   border: 1px solid slateblue;
@@ -238,4 +235,53 @@ _:-ms-input-placeholder, :root .demo-graph {
   color: #00b9d8;
 
   font-family: 'Bree Serif', serif;
+}
+
+
+.button {
+  
+  border: none;
+  color: white;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+}
+
+.Button{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.CP{
+  display: none;
+}
+.CP.reveal{
+  display: block;
+  margin-top: 26px;
+}
+.BEC{
+  display: none;
+  ;
+}
+.BEC.reveal{
+  display: block;
+  margin-top: 26px;
+}
+.BEE{
+  display: none;
+  
+}
+.BEE.reveal{
+  display: block;
+  margin-top: 26px;
+}
+.CHEM{
+  display: none;
+  margin-top: 26px;
+}
+.CHEM.reveal{
+  display: block;
+  margin-top: 26px;
 }
