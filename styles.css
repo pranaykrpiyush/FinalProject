@@ -17,6 +17,8 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+
+
 .demo-avatar {
   width: 48px;
   height: 48px;
@@ -284,4 +286,18 @@ html, body {
 .CHEM.reveal{
   display: block;
   margin-top: 26px;
+}
+
+#card{
+  display: block;
+  margin-left: 600px;
+  max-width: max-content;
+  padding-top: 40px;
+}
+#img{
+  align-self: inherit;
+  padding-top: 65px;
+  padding-left: 0%;
+  height: 550px;
+  width: 1060px;
 }
