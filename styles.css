@@ -115,6 +115,11 @@ html, body {
   height: 256px;
   align-content: center;
   background-image: url("document.png");
+  animation-name: initial;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  
 }
 .demo-card-image > .mdl-card__actions {
   height: 52px;
